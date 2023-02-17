@@ -1,0 +1,14 @@
+#include<stdio.h>
+main()
+{
+	int i=1,num;
+	printf("enter the number:");
+	scanf("%d",&num);
+	printf("the factor of %d are:\n",num);
+	while(i<=num)
+	{
+		if(num%i==0)
+		printf("%d ",i);
+		++i;
+	}
+} 
